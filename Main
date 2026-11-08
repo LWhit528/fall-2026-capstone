@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fall 2026 DSCPE Capstone Project exploring artificial intelligence, synthetic data, and human subjects research.">
+  <title>Fall 2026 DSCPE Capstone Project</title>
+  <style>
+    :root { color-scheme: light; --ink: #203b3d; --accent: #206d68; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f5ef; color: var(--ink); font: 18px/1.75 system-ui, sans-serif; }
+    .wrap { width: min(100% - 48px, 1000px); margin: auto; }
+    header { padding: 72px 0 64px; background: #173e40; color: #fff; border-top: 8px solid #bbd5b5; }
+    .eyebrow { margin: 0 0 22px; color: #c5ddcb; font-size: 13px; letter-spacing: .17em; text-transform: uppercase; }
+    h1 { max-width: 860px; margin: 0 0 26px; font: 500 clamp(2.3rem, 6vw, 4rem)/1.12 Georgia, serif; }
+    .subtitle { max-width: 800px; margin: 0; color: #e0ebe7; font-size: clamp(1.1rem, 2.5vw, 1.4rem); line-height: 1.55; }
+    main { padding: 56px 0 72px; }
+    section { max-width: 800px; }
+    section + section { margin-top: 40px; padding-top: 32px; border-top: 1px solid #d6ddd5; }
+    h2 { margin: 0 0 20px; font: 500 2rem/1.2 Georgia, serif; }
+    section p { margin: 0 0 20px; }
+    strong { color: var(--accent); font-weight: 650; }
+    footer { border-top: 1px solid #d6ddd5; padding: 22px 0; font-size: 14px; color: #556966; }
+    a { color: inherit; text-underline-offset: 4px; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    @media (max-width: 600px) { header { padding: 46px 0; } main { padding: 36px 0 48px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Research &amp; learning · Fall 2026</p>
+      <h1>Fall 2026 DSCPE Capstone Project</h1>
+      <p class="subtitle">Artificial Intelligence Tools and Human Subjects Research: The Potential Role of AI in Human Subject Research</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section aria-labelledby="introduction">
+      <h2 id="introduction">Introduction</h2>
+      <p>This project investigated the use of AI in the creation of synthetic datasets to teach enduring concepts of <strong>data provenance, documentation, transparency, privacy, bias, validation, reproducibility, and responsible reuse</strong>.</p>
+      <p>We reviewed best practices, the pros and cons of synthetic data, created our own datasets as well as case studies for potential future workshops.</p>
+    </section>
+    <section aria-labelledby="literature-review">
+      <h2 id="literature-review">Literature Review</h2>
+      <!-- Add literature review text and links here. -->
+    </section>
+    <section aria-labelledby="pros-cons">
+      <h2 id="pros-cons">Pros/Cons of using synthetic data</h2>
+      <!-- Add advantages and limitations here. -->
+    </section>
+    <section aria-labelledby="synthetic-test-data">
+      <h2 id="synthetic-test-data">Synthetic Test Data and Case Studies</h2>
+      <!-- Add datasets, case studies, photos, and links here. -->
+    </section>
+    <section aria-labelledby="discussion-colby-college">
+      <h2 id="discussion-colby-college">Discussion at Colby College</h2>
+      <!-- Add discussion text, photos, and links here. -->
+    </section>
+  </main>
+  <footer><div class="wrap">Fall 2026 DSCPE Capstone Project · <a href="https://github.com/LWhit258">LWhit258 on GitHub</a></div></footer>
+</body>
+</html>
