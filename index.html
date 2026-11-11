@@ -40,17 +40,114 @@
       <p>This project investigated the use of AI in the creation of synthetic datasets to teach enduring concepts of <strong>data provenance, documentation, transparency, privacy, bias, validation, reproducibility, and responsible reuse</strong>.</p>
       <p>We reviewed best practices, the pros and cons of synthetic data, created our own datasets as well as case studies for potential future workshops.</p>
     </section>
-    <section aria-labelledby="literature-review">
-      <h2 id="literature-review">Literature Review</h2>
-      <!-- Add literature review text and links here. -->
-    </section>
+
+<section aria-labelledby="literature-review">
+  <details>
+    <summary id="literature-review"
+             style="font-family: Georgia, serif; font-size: 2rem; font-weight: bold; line-height: 1.2;">
+      Literature Review
+    </summary>
+
+    <!-- Add literature review text and links here. -->
+  </details>
+</section>
+
     <section aria-labelledby="pros-cons">
-      <h2 id="pros-cons">Pros/Cons of using synthetic data</h2>
-      <!-- Add advantages and limitations here. -->
-    </section>
-    <section aria-labelledby="synthetic-test-data">
-      <h2 id="synthetic-test-data">Synthetic Test Data and Case Studies</h2>
-      <p>
+  <details>
+    <summary id="pros-cons"
+             style="font-family: Georgia, serif; font-size: 2rem; font-weight: bold; line-height: 1.2;">
+      Pros/Cons of using synthetic data
+    </summary>
+
+   <h3>Why use synthetic data?</h3>
+
+<ul>
+  <li>
+    <strong>Reduces exposure of sensitive data.</strong>
+    Synthetic data allows students to practice working with data,
+    creating visualizations, and analyzing trends without using
+    actual student records.
+  </li>
+
+  <li>
+    <strong>Supports large datasets and collaboration.</strong>
+    Tools such as LLMs and Python can generate large synthetic
+    datasets quickly. Sharing the data, code, and generation methods
+    can support open collaboration and reproducibility.
+  </li>
+
+  <li>
+    <strong>Creates opportunities to explore bias and specific scenarios.</strong>
+    Carefully designed prompts can generate edge cases and varied
+    scenarios for teaching. The resulting data still need to be
+    checked for bias and unrealistic patterns.
+  </li>
+
+  <li>
+    <strong>Supports rapid testing.</strong>
+    Fictional records can be used to develop and test analytical
+    workflows before introducing real participant data.
+  </li>
+</ul>
+
+<p>
+  Agal, S. (2026). A privacy preserving synthetic learner dataset
+  for learning analytics in technology enhanced higher education.
+  <em>Scientific Reports, 16</em>(1), Article 14772.
+  <a href="https://doi.org/10.1038/s41598-026-44990-8">
+    https://doi.org/10.1038/s41598-026-44990-8
+  </a>
+</p>
+
+<h3 style="margin-top: 40px;">Why NOT use synthetic data?</h3>
+
+<ul>
+  <li>
+    <strong>Can reproduce or amplify bias.</strong>
+    Synthetic data can reflect cultural biases and systemic
+    inequities in the source data or generation process.
+  </li>
+
+  <li>
+    <strong>Cannot fully capture lived experience.</strong>
+    Synthetic data may miss emotional complexity and contextual
+    judgment that matter when interpreting human experiences.
+  </li>
+
+  <li>
+    <strong>Can be mistaken for evidence about real populations.</strong>
+    Treating synthetic data as representative of actual students
+    could lead to unsupported policy decisions or resource allocations.
+  </li>
+
+  <li>
+    <strong>May retain privacy risks.</strong>
+    Depending on how the data are constructed, information about
+    real individuals could be exposed or re-identified.
+  </li>
+</ul>
+
+<p>
+  Daniel Susser, Daniel S. Schiff, Sara Gerke, Laura Y. Cabrera,
+  I. Glenn Cohen, Megan Doerr, Jordan Harrod, Kristin Kostick-Quenet,
+  Jasmine McNealy, Michelle N. Meyer, W. Nicholson Price II,
+  and Jennifer K. Wagner,
+  “Synthetic Health Data: Real Ethical Promise and Peril,”
+  <em>Hastings Center Report</em> 54, no. 5 (2024): 8–13.
+  DOI:
+  <a href="https://doi.org/10.1002/hast.4911">
+    10.1002/hast.4911
+  </a>
+</p>
+  </details>
+</section>
+
+   <section aria-labelledby="synthetic-test-data">
+  <details>
+    <summary id="synthetic-test-data"
+             style="font-family: Georgia, serif; font-size: 2rem; font-weight: bold; line-height: 1.2;">
+      Synthetic Test Data and Case Studies
+    </summary>
   <a href="synthetic_education_cleaning_exercise.xlsx">
     Download the synthetic dataset (Excel)
   </a>
@@ -60,11 +157,90 @@
   created for teaching purposes and does not represent actual
   students or school districts. This is for educational use only.
 </p>
-    </section>
-    <section aria-labelledby="discussion-colby-college">
-      <h2 id="discussion-colby-college">Discussion at Colby College</h2>
-      <!-- Add discussion text, photos, and links here. -->
-    </section>
+<p>
+</p>
+ <h3 style="margin-top: 48px;">Case Studies for Classroom Use</h3>
+
+  <h4>Case Study 1: Student Mental Health and Academic Performance</h4>
+
+  <p>
+    A student wants to explore relationships between academic performance,
+    stress, sleep, and mental health using AI-assisted statistical analysis.
+  </p>
+
+  <p>
+    Rather than collecting actual student records, the student generates
+    a synthetic dataset of 500 fictional students using AI. The student
+    plans to use ChatGPT or a university-supported AI tool to analyze
+    patterns and create visualizations.
+  </p>
+  <ol>
+  <li>Does this project require IRB review if only fictional data are used?</li>
+  <li>What biases or unrealistic patterns might AI introduce into the dataset?</li>
+  <li>Can the student publish findings based entirely on synthetic data?</li>
+  <li>How should the student document and disclose AI use?</li>
+  <li>What changes if the student later replaces synthetic data with actual student records?</li>
+</ol>
+<h4 style="margin-top: 40px;">
+  Case Study 2: Student Success, Academic Records, and Mental Health
+</h4>
+
+<p>
+  A faculty researcher is investigating how mental health affects
+  academic success. The project combines:
+</p>
+
+<ul>
+  <li>
+    <strong>Academic records:</strong> GPA, course performance,
+    attendance, and academic standing.
+  </li>
+  <li>
+    <strong>Student interviews:</strong> Experiences with stress,
+    mental health, and academic challenges.
+  </li>
+  <li>
+    <strong>Health records:</strong> Counseling or clinical records
+    supplied by a HIPAA-covered healthcare provider.
+  </li>
+</ul>
+
+<p>
+  The researcher wants to use AI to transcribe interviews, identify
+  themes, and analyze relationships between academic and mental health data.
+</p>
+
+<ol>
+  <li>
+    Which data are protected by FERPA, HIPAA, or both?
+  </li>
+  <li>
+    Which AI models and tools available at Colby would be appropriate
+    for analyzing these data, and how do their privacy and security
+    protections differ?
+  </li>
+  <li>
+    What participant consent, IRB review, institutional approval,
+    or legal agreements might be necessary?
+  </li>
+  <li>
+    Could synthetic data be used to test the analytical workflow
+    before introducing real records?
+  </li>
+</ol>
+</details>
+</section>
+
+<section aria-labelledby="discussion-colby-college">
+  <details>
+    <summary id="discussion-colby-college"
+             style="font-family: Georgia, serif; font-size: 2rem; font-weight: bold; line-height: 1.2;">
+      Discussion at Colby College
+    </summary>
+
+    <!-- Keep your discussion content here. -->
+  </details>
+</section>
   </main>
   <footer><div class="wrap">Fall 2026 DSCPE Capstone Project · <a href="https://github.com/LWhit258">LWhit258 on GitHub</a></div></footer>
 </body>
